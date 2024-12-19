@@ -13,10 +13,17 @@
   "dependencies": {
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.11.0",
+    "mongoose": "^6.10.0",
+    "mongoose-slug-generator": "^1.0.4",
     "node-sass": "^9.0.0"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.2"
   }
 }
